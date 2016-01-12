@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rahendz Finder</title>
+	<link rel="stylesheet" href="../asset/css/bootstrap.min.css?ver=3.3.5" />
+	<link rel="stylesheet" href="../asset/css/upload.css?ver=1.0.0" />
+	<script type="text/javascript" src="../asset/js/jquery.min.js?ver=2.1.4"></script>
+</head>
+<body class="fileupload">
+	<ul class="nav nav-tabs">
+		<li><a href="form.html">Upload from Computer</a></li>
+		<li class="active"><a>Choose Image</a></li>
+	</ul>
+	<div class="tab-content container-fluid" id="finder">
+		<div class="tab-pane fade active in">
+			<form class="row" name="images" id="showcase"></form>
+			<div class="footer">
+				<form class="btn-group pull-left" data-toggle="buttons" id="imagesize">
+					<label class="btn" disabled>
+						<strong>Size :</strong>
+					</label>
+					<label class="btn btn-default">
+						<input type="radio" name="size" id="size" autocomplete="off" value="full"> Full
+					</label>
+					<label class="btn btn-default">
+						<input type="radio" name="size" id="size" autocomplete="off" value="large"> Large
+					</label>
+					<label class="btn btn-default active">
+						<input type="radio" name="size" id="size" autocomplete="off" value="medium" checked> Medium
+					</label>
+					<label class="btn btn-default">
+						<input type="radio" name="size" id="size" autocomplete="off" value="small"> Small
+					</label>
+				</form>
+				<button class="btn btn-default" id="insertImages">Insert Into Post</button>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="../asset/js/bootstrap.min.js?ver-3.3.5"></script>
+<script type="text/javascript" src="../asset/js/serialize.js?ver=1.0.0"></script>
+<script type="text/javascript" src="../asset/js/finder.trigger.js?ver=1.0.0"></script>
+</body>
+</html>

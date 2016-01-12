@@ -1,0 +1,29 @@
+html,body{height:100%;}
+a:focus{outline: none;}
+.btn,.alert{border-radius:0;}
+.nav-tabs{padding-left:10px;padding-right:10px;z-index:1;position:relative;}
+.tab-content{height:100%;position:relative;margin-top:-42px;box-sizing:border-box;padding-top:57px;padding-bottom:15px;z-index:0;}
+.tab-content > .tab-pane{height:100%;}
+.tab-content > .tab-pane > .row{height:100%;}
+.tab-content > .tab-pane > .row > #upload{height:100%;}
+.tab-content > .tab-pane > .row > #upload > .table-wrapper{display:table;width:100%;height:100%;}
+.tab-content > .tab-pane > .row > #upload > .table-wrapper > div[role="upload"]{border:1px dashed #DDD;height:100%;display:table-cell;vertical-align:middle;text-align:center;}
+input[role="input-file"]{width:1px!important;left:50%!important;}
+
+.ajax-file-upload-statusbar{display:table;width:100%;margin-bottom:5px;padding-bottom:5px;border-bottom:1px solid #DDD;}
+.ajax-file-upload-statusbar > div{display:table-cell;vertical-align:top;}
+.ajax-file-upload-thumbnail-preview{width:4.5%;}
+.ajax-file-upload-content-preview{width:auto;}
+.ajax-file-upload-filename{margin-bottom:5px;font-style:italic;display:inline-block;}
+.ajax-file-upload-preview{display: inline-block;vertical-align:top;}
+.ajax-file-upload-progress{border-radius:0;margin:0;}
+.ajax-file-upload-insert-post{width:10%;text-align:right;vertical-align:middle!important;}
+
+.footer{position:absolute;bottom:0;right:0;left:0;height:50px;background-color:white;text-align:right;padding:8px 15px 0;border-top:1px solid #DDD;}
+
+#finder{padding-bottom:60px;}
+#finder .tab-pane{overflow-y:auto;overflow-x:hidden; }
+#finder .tab-pane .row{margin:0;}
+#finder .tab-pane .row div[class="col-xs-2"]{padding-left:0;box-sizing:border-box;height:10%;width:10%;padding-bottom:10%;}
+#finder .tab-pane .row div[class="col-xs-2"] label{background-repeat:no-repeat;width:100%;background-size:cover;background-position:center;height:100%;padding-bottom:100%;}
+#finder .tab-pane .row div[class="col-xs-2"] label input[type="checkbox"]{position:relative;margin-left:5px;}
