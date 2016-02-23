@@ -1,0 +1,12 @@
+.mce-window[aria-label="Insert Media"] {box-sizing:border-box!important;background: none!important;}
+.mce-window[aria-label="Insert Media"] > .mce-reset{background-color:white;height:100%;}
+.mce-window[aria-label="Insert Media"] > .mce-reset > .mce-window-head{z-index:1;position: relative;background-color:#FFF;border:none;font-weight:normal;}
+.mce-window[aria-label="Insert Media"] > .mce-reset > .mce-window-head > .mce-title,
+.mce-window[aria-label="Insert Media"] > .mce-reset > .mce-window-head > .mce-close{font-weight:normal;}
+.mce-window[aria-label="Insert Media"] > .mce-reset > .mce-window-body{width:100%!important;height:100%!important;margin-top:-38px;box-sizing:border-box;padding-top:38px;}
+@media (min-height: 600px) {
+	.mce-window[aria-label="Insert Media"]{height:100%!important;top:0!important;width:100%!important;left:0!important;padding:20px!important;}
+}
+@media (max-height: 599px) {
+	.mce-window[aria-label="Insert Media"]{height:100%!important;top:0!important;width:100%!important;left:0!important;}
+}
